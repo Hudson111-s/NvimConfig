@@ -10,6 +10,13 @@ vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
+vim.opt.list = true
+vim.opt.listchars = {
+    space = "·",
+    tab = "→ ",
+    trail = "•",
+    eol = "↲",
+}
 
 local map = vim.keymap.set
 local opts = { silent = true }

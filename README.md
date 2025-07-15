@@ -3,7 +3,7 @@
 [![Neovim](https://img.shields.io/badge/Neovim-latest-57A143?logo=neovim&logoColor=white)](https://github.com/neovim/neovim)
 
 
-This is my personal Neovim configuration used inside WSL.
+This is my personal Neovim configuration, designed for WSL and Linux systems.
 
 It uses [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management and includes a minimal set of plugins for daily development.
 
@@ -23,8 +23,8 @@ Make sure these are installed before using this config for the best experience.
 - **LSP support** via `mason.nvim` and `nvim-lspconfig`
 - **Autocompletion** with `nvim-cmp` and `cmp-nvim-lsp`
 - **Snippets** with `LuaSnip` and `friendly-snippets`
-- **Syntax highlighting**: `nvim-treesitter`
-- **File search**: `telescope.nvim`
+- **Syntax highlighting:** `nvim-treesitter`
+- **File search:** `telescope.nvim`
 - **Git support:** `vim-fugitive` and `gitsigns.nvim`
 - **File explorer:** `neo-tree.nvim`
 - **Formatter/linter integration:** `none-ls.nvim`
@@ -39,10 +39,10 @@ Clone this repo into your Neovim config directory:
 git clone git@github.com:Hudson111-s/NvimConfig.git ~/.config/nvim
 ```
 
-Open Neovim to trigger plugin installation.
+Then, open Neovim to trigger the installation.
 
 
 > [!NOTE]
 > - Optional terminal font: [JetBrainsMono Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
 > - Compatible with WSL and Linux-based systems
-> - Config is organized under `lua/` with separate plugin files
+> - Config is modular and organized under `lua/` for easy management
