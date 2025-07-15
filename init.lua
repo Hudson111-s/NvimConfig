@@ -20,4 +20,3 @@ vim.diagnostic.config({
 
 require("vim_options")
 require("lazy").setup("plugins")
-
