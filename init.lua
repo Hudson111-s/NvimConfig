@@ -19,4 +19,5 @@ vim.diagnostic.config({
 })
 
 require("vim_options")
+require("keymaps")
 require("lazy").setup("plugins")
