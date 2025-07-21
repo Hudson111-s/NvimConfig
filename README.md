@@ -29,6 +29,7 @@ Make sure these are installed before using this config for the best experience.
 - **Git support:** `vim-fugitive` and `gitsigns.nvim`
 - **File explorer:** `neo-tree.nvim`
 - **Formatter/linter integration:** `none-ls.nvim`
+- **Custom dashboard** via `alpha-nvim`
 - **Theme:** `catppuccin` (frappe)
 
 
@@ -47,6 +48,6 @@ Then, open Neovim to trigger the installation.
 
 
 > [!NOTE]
-> - Optional terminal font for icons: [JetBrainsMono Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
+> - Optional nerd font for icons: [JetBrainsMono Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
 > - Compatible with WSL and Linux-based systems
 > - Config is modular and organized under `lua/` for easy management

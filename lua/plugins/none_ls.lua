@@ -1,8 +1,6 @@
 return {
     "nvimtools/none-ls.nvim",
-    dependencies = {
-        "nvimtools/none-ls-extras.nvim",
-    },
+    dependencies = { "nvimtools/none-ls-extras.nvim" },
     config = function()
         local null_ls = require("null-ls")
         local augroup = vim.api.nvim_create_augroup("LspFormatting", { clear = true })
