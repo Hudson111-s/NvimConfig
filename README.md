@@ -1,6 +1,6 @@
 # NvimConfig
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Neovim](https://img.shields.io/badge/Neovim-latest-57A143?logo=neovim&logoColor=white)](https://github.com/neovim/neovim)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Neovim](https://img.shields.io/badge/Neovim-latest-57A143?style=for-the-badge&logo=neovim&logoColor=white)](https://github.com/neovim/neovim)
 
 
 This is my personal Neovim configuration.
