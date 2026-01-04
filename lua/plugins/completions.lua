@@ -8,6 +8,7 @@ return {
             "rafamadriz/friendly-snippets",
             "hrsh7th/cmp-cmdline",
             "hrsh7th/cmp-path",
+            "hrsh7th/cmp-buffer",
         },
         config = function()
             local cmp = require("cmp")
@@ -42,6 +43,12 @@ return {
                 sources = {
                     { name = "path" },
                     { name = "cmdline" },
+                },
+            })
+            cmp.setup.cmdline({ "/", "?" }, {
+                mapping = cmp.mapping.preset.cmdline(),
+                sources = {
+                    { name = "buffer" },
                 },
             })
         end,
