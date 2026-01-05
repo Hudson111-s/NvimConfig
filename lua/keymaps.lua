@@ -16,4 +16,14 @@ map("n", "<C-l>", "5l", opts)
 map("n", "H", "^", opts)
 map("n", "L", "$", opts)
 
+map("n", "<A-h>", ":tabprevious<CR>", opts)
+map("n", "<A-l>", ":tabnext<CR>", opts)
+
+map("n", "<A-j>", ":m .+1<CR>==", opts)
+map("n", "<A-k>", ":m .-2<CR>==", opts)
+
+map("n", "<A-n>", ":bnext<CR>", opts)
+map("n", "<A-p>", ":bprevious<CR>", opts)
+map("n", "<leader>bd", ":bd<CR>", opts)
+
 map("i", "jj", "<Esc>", opts)
