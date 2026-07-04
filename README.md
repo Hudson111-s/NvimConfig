@@ -2,11 +2,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Neovim](https://img.shields.io/badge/Neovim-latest-57A143?style=for-the-badge&logo=neovim&logoColor=white)](https://github.com/neovim/neovim)
 
-
 This is my personal Neovim configuration.
 
 It uses [lazy.nvim](https://github.com/folke/lazy.nvim) and [mason.nvim](https://github.com/mason-org/mason.nvim) for plugin and tool management.
-
 
 ## Prerequisites
 
@@ -16,7 +14,6 @@ It uses [lazy.nvim](https://github.com/folke/lazy.nvim) and [mason.nvim](https:/
 - **ripgrep** (for telescope's live grep)
 
 Make sure these are installed before using this config for the best experience.
-
 
 ## Features
 
@@ -32,7 +29,6 @@ Make sure these are installed before using this config for the best experience.
 - **Custom dashboard** via `alpha-nvim`
 - **Theme:** `catppuccin` (frappe)
 
-
 ## ⚙️ Setup and Installation
 
 Clone this repo into your Neovim config directory:
@@ -43,9 +39,7 @@ git clone git@github.com:Hudson111-s/NvimConfig.git ~/.config/nvim
 
 Then, open Neovim to trigger the installation.
 
-
 ---
-
 
 > [!NOTE]
 > - Optional nerd font for icons: [JetBrainsMono Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
