@@ -16,6 +16,7 @@ return {
         end
 
         null_ls.setup({
+            ensure_installed = { "clang-format", "stylua", "black", "ruff" },
             sources = {
                 require("none-ls.diagnostics.ruff"),
                 null_ls.builtins.formatting.stylua.with({
